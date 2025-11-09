@@ -71,8 +71,7 @@ After Active Directory Domain Services (AD DS) is installed, the Post-Deployment
 
 <h3>Step 4. Creating Organizational Units (OUs) and Admin Account</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1910" height="329" alt="image" src="https://github.com/user-attachments/assets/787cbbf9-4596-4f27-95d2-4e64f2caa1d4" />
 </p>
 <p>
 In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) named _EMPLOYEES and _ADMINS are created to keep accounts organized. An admin account, jane_admin, is also added to the Domain Admins group to manage the domain securely.
