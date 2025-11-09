@@ -5,11 +5,12 @@
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure) with PowerShell</h1>
-This project demonstrates how to implement and configure Active Directory Domain Services (AD DS) within Microsoft Azure Virtual Machines using PowerShell, simulating a real-world enterprise environment for centralized user management, authentication, and domain administration in a cloud-hosted infrastructure.<br />
+This project shows how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.<br />
 
 <h2>Project Summary</h2>
-This project serves as a tutorial and practical lab demonstrating the deployment of Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
-It showcases the installation, configuration, and management of a Windows Server domain, user accounts, and client domain joins, core skills for IT and cybersecurity professionals.<br />
+This project is a hands-on tutorial and practical lab that shows how to deploy Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
+It covers how to install, configure, and manage a Windows Server domain, create user accounts, and join client machines to the domain, core skills for IT and cybersecurity professionals.<br />
+<img src="https://i.imgur.com/Ew18HCW.png" alt="Project Summary"/>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -21,7 +22,7 @@ It showcases the installation, configuration, and management of a Windows Server
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2025 Datacenter: Azure Edition
+- Windows Server 2025 Datacenter: Azure Edition (24H2)
 - Windows 10 (22H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
@@ -47,7 +48,7 @@ In the Azure Portal, two virtual machines (VMs) are created, dc-1 (the domain co
 
 <p>
 <h3>Step 2. Installing Active Directory Domain Services (AD DS)</h3>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1029" alt="image" src="https://github.com/user-attachments/assets/086ad8dc-17d4-4e66-9197-1393e53e3028" />
 </p>
 <p>
 Within Server Manager, the “Add Roles and Features” wizard is used to select and install the Active Directory Domain Services (AD DS) role on dc-1. This prepares the server to become a domain controller capable of managing users, groups, and authentication across the network.
@@ -56,7 +57,7 @@ Within Server Manager, the “Add Roles and Features” wizard is used to select
 
 <p>
 <h3>Step 3. Promoting to Domain Controller</h3>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UVT7h2d.jpeg" alt="Promoting to Domain Controller"/>
 </p>
 <p>
 After Active Directory Domain Services (AD DS) is installed, the Post-Deployment Configuration Wizard is launched to promote dc-1 to a domain controller and create a new forest named mydomain.com. This sets up the base of the Active Directory environment and enables centralized authentication (login control).
