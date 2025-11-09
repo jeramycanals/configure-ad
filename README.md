@@ -26,17 +26,27 @@ It showcases the installation, configuration, and management of a Windows Server
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Azure Resource Setup
-- Installing Active Directory Domain Services
-- Promoting to Domain Controller
-- Creating Organizational Units (OUs) and Admin Account
-- Joining Client-1 to the Domain
-- PowerShell Bulk User Creation
-- Remote Desktop Access Test
+- Step 1. Azure Resource Setup
+- Step 2. Installing Active Directory Domain Services
+- Step 3. Promoting to Domain Controller
+- Step 4. Creating Organizational Units (OUs) and Admin Account
+- Step 5. Joining Client-1 to the Domain
+- Step 6. PowerShell Bulk User Creation
+- Step 7. Remote Desktop Access Test
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
+<h3>Step 1. Azure Resource Setup</h3>
+<img width="3832" height="3832" alt="image" src="https://github.com/user-attachments/assets/bf094d2b-63bc-45e1-8491-5d44f809b3fa" />
+</p>
+<p>
+The Azure Portal displays both virtual machines, dc-1 (domain controller) and client-1 (workstation), running within Azure Compute. This step establishes the cloud-hosted environment used throughout the lab, forming the foundation for deploying and testing Active Directory Domain Services (AD DS).
+</p>
+<br />
+
+<p>
+<h3>Step 2. Installing Active Directory Domain Services (AD DS)</h3>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -45,6 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
+<h3>Step 3. Promoting to Domain Controller</h3>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -53,6 +64,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
+<h3>Step 4. Creating Organizational Units (OUs) and Admin Account</h3>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<h3>Step 5. Joining Client-1 to the Domain</h3>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<h3>Step 6. <img align="center" alt="PowerShell Icon" width="20px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powershell-colored.svg" /> PowerShell Bulk User Creation</h3>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<h3>Step 7. Remote Desktop Access Test</h3>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
