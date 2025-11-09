@@ -41,7 +41,7 @@ It showcases the installation, configuration, and management of a Windows Server
 <img width="3832" height="3832" alt="image" src="https://github.com/user-attachments/assets/bf094d2b-63bc-45e1-8491-5d44f809b3fa" />
 </p>
 <p>
-The Azure Portal displays both virtual machines, dc-1 (domain controller) and client-1 (workstation), running within Azure Compute. This step establishes the cloud-hosted environment used throughout the lab, forming the foundation for deploying and testing Active Directory Domain Services (AD DS).
+In the Azure Portal, two virtual machines (VMs) are created, dc-1 (the domain controller) and client-1 (the workstation). These VMs run inside Azure Compute and form the cloud environment used to build and test Active Directory Domain Services (AD DS) throughout the lab.
 </p>
 <br />
 
@@ -50,7 +50,7 @@ The Azure Portal displays both virtual machines, dc-1 (domain controller) and cl
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within Server Manager, the “Add Roles and Features” wizard is used to select and install the Active Directory Domain Services (AD DS) role on dc-1. This prepares the server to become a domain controller capable of managing users, groups, and authentication across the network.
 </p>
 <br />
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After Active Directory Domain Services (AD DS) is installed, the Post-Deployment Configuration Wizard is launched to promote dc-1 to a domain controller and create a new forest named mydomain.com. This sets up the base of the Active Directory environment and enables centralized authentication (login control).
 </p>
 <br />
 
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) named _EMPLOYEES and _ADMINS are created to keep accounts organized. An admin account, jane_admin, is also added to the Domain Admins group to manage the domain securely.
 </p>
 <br />
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The client-1 virtual machine is joined to the mydomain.com domain through System Properties, confirming successful communication with the domain controller. This step confirms that the domain controller and DNS are working correctly between the two virtual machines (VMs), allowing the client to log in with domain accounts.
 </p>
 <br />
 
@@ -86,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In PowerShell ISE, the Generate-Names-Create-Users.ps1 script automatically creates 10,000 new user accounts in Active Directory. The _EMPLOYEES Organizational Unit (OU) in Active Directory Users and Computers (ADUC) shows the new users. This shows how PowerShell can save time by automating repetitive account creation tasks in Active Directory.
 </p>
 <br />
 
@@ -95,6 +95,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+A Remote Desktop Protocol (RDP) login test is done using one of the new employee non-administrative domain user accounts. Successful login confirms that domain authentication, permissions, and group policies are set up correctly for normal users.
 </p>
 <br />
+
+<h2>Thank you for checking out my project!</h2>
+
+<p>If you found it helpful or interesting, subscribe to my YouTube channel and connect with me on LinkedIn:</p>
+
+[<img align="left" alt="Jeramy | YouTube" width="22px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" />][youtube]
+[<img align="left" alt="Jeramy | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
+
+[youtube]: https://youtube.com/@jeramycanals
+[linkedin]: https://linkedin.com/in/jeramycanals
