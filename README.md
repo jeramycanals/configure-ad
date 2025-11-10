@@ -1,20 +1,26 @@
 <p align="center">
-  <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-  <img src="https://i.imgur.com/lNJH5eY.jpeg" alt="Microsoft Azure Logo"/>
-  <img src="https://i.imgur.com/WKG99uH.jpeg" alt="PowerShell Logo"/>
+  <img width="298" height="166" alt="image" src="https://github.com/user-attachments/assets/dc3b64e1-0e71-4777-b07c-8f99e3245d5c" />
+  <img width="297" height="65" alt="image" src="https://github.com/user-attachments/assets/499c27ec-8b27-47f7-9f60-c28191276562" />
+  <img width="224" height="73" alt="image" src="https://github.com/user-attachments/assets/8af18f15-6dc2-4f98-ac96-d8e6b35d69de" />
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure) with PowerShell</h1>
-This project demonstrates how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.<br />
+
+This project demonstrates how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.
+<br />
+
 <p align="center">
   <img width="704" height="356" alt="image" src="https://github.com/user-attachments/assets/4b04b835-cb5b-436d-b8f4-92941ea54775" />
 </p>
 
 <h2>Project Summary</h2>
+
 This project is a hands-on tutorial and practical lab that demonstrates how to deploy Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
-It covers how to install, configure, and manage a Windows Server domain, create Organizational Units (OUs) with admin and user accounts; join client machines to the domain; and use PowerShell automation and Remote Desktop (RDP) to bulk-create and access user accounts, which are core skills for IT and cybersecurity professionals.<br />
+It covers how to install, configure, and manage a Windows Server domain, create Organizational Units (OUs) with admin and user accounts; join client machines to the domain; and use PowerShell automation and Remote Desktop (RDP) to bulk-create and access user accounts, which are core skills for IT and cybersecurity professionals.
+<br />
+
 <p align="center">
-  <img src="https://i.imgur.com/Ew18HCW.png" alt="Project Summary"/>
+  <img width="536" height="468" alt="image" src="https://github.com/user-attachments/assets/a10680fa-17a7-4ea8-bf4e-241602af062d" />
   <img width="736" height="402" alt="image" src="https://github.com/user-attachments/assets/a620d1cd-426d-44f3-9d6b-efae6325a8bc" />
 </p>
 
@@ -119,8 +125,8 @@ This project demonstrates how to set up and manage Active Directory Domain Servi
 <br />
 
 <h2>Thank you for checking out my project!</h2>
-
-<p>If you found it helpful or interesting, subscribe to my YouTube channel and 🔗connect with me on LinkedIn by clicking below:</p>
+<p>If you found it helpful or interesting, subscribe to my YouTube channel and 🔗connect with me on LinkedIn by clicking below:
+</p>
 
 [<img align="left" alt="Jeramy | YouTube" width="22px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" />][youtube]
 [<img align="left" alt="Jeramy | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
