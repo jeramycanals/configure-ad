@@ -93,7 +93,8 @@ The client-1 virtual machine is joined to the mydomain.com domain through System
 
 <h3>Step 6. <img align="center" alt="PowerShell Icon" width="20px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powershell-colored.svg" /> PowerShell Bulk User Creation</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="802" height="1037" alt="image" src="https://github.com/user-attachments/assets/7c42ead9-939e-4e05-bb22-f0cb5f7a8756" />
+<img width="832" height="1039" alt="image" src="https://github.com/user-attachments/assets/0e69d5bb-f8e3-4de0-8245-bfda48942538" />
 </p>
 <p>
 In PowerShell ISE, the Generate-Names-Create-Users.ps1 script automatically creates 10,000 new user accounts in Active Directory. The _EMPLOYEES Organizational Unit (OU) in Active Directory Users and Computers (ADUC) shows the new users. This shows how PowerShell can save time by automating repetitive account creation tasks in Active Directory.
