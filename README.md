@@ -72,6 +72,7 @@ After Active Directory Domain Services (AD DS) is installed, the Post-Deployment
 <h3>Step 4. Creating Organizational Units (OUs) and Admin Account</h3>
 <p>
 <img width="1910" height="329" alt="image" src="https://github.com/user-attachments/assets/787cbbf9-4596-4f27-95d2-4e64f2caa1d4" />
+<img width="1914" height="698" alt="image" src="https://github.com/user-attachments/assets/2fce4bb5-2fc8-4c81-825a-17095c9fa33b" />
 </p>
 <p>
 In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) named _EMPLOYEES and _ADMINS are created to keep accounts organized. An admin account, jane_admin, is also added to the Domain Admins group to manage the domain securely.
@@ -80,7 +81,8 @@ In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) n
 
 <h3>Step 5. Joining Client-1 to the Domain</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="580" height="473" alt="image" src="https://github.com/user-attachments/assets/23d6c56c-1382-4373-99ec-a8540676cd74" />
+<img width="1633" height="872" alt="image" src="https://github.com/user-attachments/assets/96c05751-66b3-4fea-949c-98875cae2918" />
 </p>
 <p>
 The client-1 virtual machine is joined to the mydomain.com domain through System Properties, confirming successful communication with the domain controller. This step confirms that the domain controller and DNS are working correctly between the two virtual machines (VMs), allowing the client to log in with domain accounts.
