@@ -83,9 +83,10 @@ In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) n
 <p>
 <img width="580" height="473" alt="image" src="https://github.com/user-attachments/assets/23d6c56c-1382-4373-99ec-a8540676cd74" />
 <img width="1633" height="872" alt="image" src="https://github.com/user-attachments/assets/96c05751-66b3-4fea-949c-98875cae2918" />
+<img width="1027" height="679" alt="image" src="https://github.com/user-attachments/assets/f5a5b9c9-a944-4cdc-aa80-4b0b50c5033c" />
 </p>
 <p>
-The client-1 virtual machine is joined to the mydomain.com domain through System Properties, confirming successful communication with the domain controller. This step confirms that the domain controller and DNS are working correctly between the two virtual machines (VMs), allowing the client to log in with domain accounts.
+The client-1 virtual machine is joined to the mydomain.com domain through System Properties, confirming successful communication with the domain controller. In Active Directory Users and Computers (ADUC) on dc-1, the client-1 computer appears under the domain. This step confirms that the domain controller and DNS are working correctly between the two virtual machines (VMs), allowing the client to log in with domain accounts.
 </p>
 <br />
 
