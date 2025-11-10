@@ -5,14 +5,14 @@
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure) with PowerShell</h1>
-This project shows how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.<br />
+This project demonstrates how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.<br />
 <p align="center">
   <img width="704" height="356" alt="image" src="https://github.com/user-attachments/assets/4b04b835-cb5b-436d-b8f4-92941ea54775" />
 </p>
 
 <h2>Project Summary</h2>
-This project is a hands-on tutorial and practical lab that shows how to deploy Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
-It covers how to install, configure, and manage a Windows Server domain, join client machines to the domain, and create user accounts, which are core skills for IT and cybersecurity professionals.<br />
+This project is a hands-on tutorial and practical lab that demonstrates how to deploy Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
+It covers how to install, configure, and manage a Windows Server domain, create Organizational Units (OUs) with admin and user accounts; join client machines to the domain; and use PowerShell automation and Remote Desktop (RDP) to bulk-create and access user accounts, which are core skills for IT and cybersecurity professionals.<br />
 <p align="center">
   <img src="https://i.imgur.com/Ew18HCW.png" alt="Project Summary"/>
   <img width="736" height="402" alt="image" src="https://github.com/user-attachments/assets/a620d1cd-426d-44f3-9d6b-efae6325a8bc" />
@@ -72,8 +72,8 @@ After Active Directory Domain Services (AD DS) is installed, the Post-Deployment
 
 <h3>Step 4. Creating Organizational Units (OUs) and Admin Account</h3>
 <p>
-  <img width="1910" height="329" alt="image" src="https://github.com/user-attachments/assets/787cbbf9-4596-4f27-95d2-4e64f2caa1d4" />
-  <img width="1914" height="698" alt="image" src="https://github.com/user-attachments/assets/2fce4bb5-2fc8-4c81-825a-17095c9fa33b" />
+  <img width="1025" height="320" alt="image" src="https://github.com/user-attachments/assets/0cdaa5bb-9125-49b7-8f68-ed3fc5dd6f5d" />
+  <img width="635" height="692" alt="image" src="https://github.com/user-attachments/assets/00739417-93b5-4d38-9ffa-6bb1995a7545" />
 </p>
 <p>
 In Active Directory Users and Computers (ADUC), two Organizational Units (OUs) named _EMPLOYEES and _ADMINS are created to keep accounts organized. An admin account, jane_admin, is also added to the Domain Admins group to manage the domain securely.
@@ -112,9 +112,15 @@ A Remote Desktop Protocol (RDP) login test is done using one of the new employee
 </p>
 <br />
 
+<h2>Conclusion</h2>
+<p>
+This project demonstrates how to set up and manage Active Directory Domain Services (AD DS) in the cloud using Microsoft Azure and PowerShell. It walks through creating and configuring a domain controller, setting up Organizational Units (OUs) and admin accounts, joining client computers to the domain, and using automation to bulk create user accounts using PowerShell, all while using Remote Desktop (RDP) for access. These steps build real-world skills in domain management, authentication, networking, and automation. The lab also highlights how cloud-based environments can be used to practice enterprise IT setups safely and efficiently.
+</p>
+<br />
+
 <h2>Thank you for checking out my project!</h2>
 
-<p>If you found it helpful or interesting, subscribe to my YouTube channel and connect with me on LinkedIn:</p>
+<p>If you found it helpful or interesting, subscribe to my YouTube channel and 🔗connect with me on LinkedIn by clicking below:</p>
 
 [<img align="left" alt="Jeramy | YouTube" width="22px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" />][youtube]
 [<img align="left" alt="Jeramy | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
