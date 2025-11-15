@@ -6,18 +6,12 @@
 
 <h1>Active Directory Deployed in the Cloud (Azure) with PowerShell</h1>
 
-This project demonstrates how to set up and configure Active Directory Domain Services (AD DS) on Microsoft Azure Virtual Machines (VMs) using PowerShell. It simulates a real-world enterprise environment where users, authentication, and domains are managed centrally in a cloud-hosted infrastructure.
+This project is a hands-on tutorial and practical lab that demonstrates how to deploy and configure Active Directory Domain Services (AD DS) in a cloud-hosted enterprise environment using Microsoft Azure Virtual Machines and PowerShell. It covers how to install, configure, and manage a Windows Server domain; create Organizational Units (OUs) and set up admin and user accounts; join client machines to the domain; and use PowerShell automation and Remote Desktop (RDP) to bulk-create and access users. This lab simulates a real-world IT environment where authentication, identity, and domain resources are centrally managed, which are core skills for IT and cybersecurity professionals.
 <br />
 
 <p align="center">
   <img width="704" height="356" alt="image" src="https://github.com/user-attachments/assets/4b04b835-cb5b-436d-b8f4-92941ea54775" />
 </p>
-
-<h2>Project Summary</h2>
-
-This project is a hands-on tutorial and practical lab that demonstrates how to deploy Active Directory Domain Services (AD DS) in a cloud-hosted environment using Microsoft Azure and PowerShell.
-It covers how to install, configure, and manage a Windows Server domain, create Organizational Units (OUs) with admin and user accounts; join client machines to the domain; and use PowerShell automation and Remote Desktop (RDP) to bulk-create and access user accounts, which are core skills for IT and cybersecurity professionals.
-<br />
 
 <p align="center">
   <img width="536" height="468" alt="image" src="https://github.com/user-attachments/assets/a10680fa-17a7-4ea8-bf4e-241602af062d" />
